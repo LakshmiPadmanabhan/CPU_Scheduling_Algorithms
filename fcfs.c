@@ -3,7 +3,7 @@ void find(int n,int a[],int b[],int c[]){
 	int i,s;
 	int wt[n];
 	float timewait=0;
-	float timeta=(float)b[i];
+	float timeta=(float)b[0];
 	wt[0]=0;
 	s=0;
 	printf("Waiting Time of process P%d is %d",c[0],wt[0]);
